@@ -9,13 +9,13 @@
 - sql or arcgis
 - asking Mjumbe for advice on this and in general about our idea
 
-## ask eugene 
+## ~~ask eugene~~ 
 - about using data that are averages instead of counts?
   - what does it mean to have a sum of averages?
   - should we just be taking the ave of the aves??
   - how do we compare it to data that is based on counts?---spatially
 
-## email josh
+## ~~email josh~~
 - data dict
 - time units
 
