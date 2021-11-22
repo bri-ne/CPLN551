@@ -1,0 +1,3 @@
+select * from "BGE_Ridership" as bge
+JOIN septa_bus_stops as stops
+ON stops.stop_id::text = left(bge."Stop Code", -2)

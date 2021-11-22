@@ -1,0 +1,6 @@
+select stops.stop_id, stops.stop_name, avg(bge."Avg. Ons")
+from "BGE_Ridership" as bge 
+JOIN septa_bus_stops as stops
+ON stops.stop_id::text = left(bge."Stop Code", -2)
+WHERE bge."Sch. Start Time" > '04:59:00' AND bge."Sch. Start Time" <= '05:59:00'
+GROUP BY 1, 2
